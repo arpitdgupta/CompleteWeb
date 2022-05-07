@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+     <style>
+         /* universal selector which used to selects all the things which available on the page  */
+             *{
+                 background-color: black;
+                 color:white;
+             }       
+
+             /* class attribute used in html tags and here we use it by using .(class name) */
+
+              .anchor{
+                   color: purple;
+              }
+
+
+              /* id attribute used in htm tags and here we use it by using #(id name)  */
+
+              #one{
+                  font-size: x-large;
+              }
+
+           /* we can use  more than one classes on a single tag  */
+            .container2{
+                 font-size:x-large;
+                 color:brown;
+            }
+
+            .container1{
+                background-color:white;
+            }
+
+
+
+             /* grouping  */
+
+            .one,.two,.three{
+                text-align: right;
+                color:crimson;
+                background-color: skyblue;
+            }
+            
+               /* selecting the tags which contains multiple classes in a single tags for it u can check question number 5 */
+
+               .container1.container2{
+                   background-color: skyblue;
+               }
+     </style>
+   
+
+</head>
+<body>
+
+    
+     <h1>heading 1</h1>
+       <p id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quas blanditiis fugiat nesciunt animi, asperiores cum atque quis commodi accusamus, repellat veniam laboriosam, ut tempore odit omnis? Perferendis, quo quis?</p>
+     <div>
+         <h1>heading inside div</h1>
+         <p>para inside div</p>
+     </div>
+
+     <div>
+         <h3>heading 3 inside div 2</h3>
+         <p>para inside div 2</p>
+     </div>
+
+
+     <h2>heading 2</h2>
+     <a class="anchor" href="">click for nothing</a>  
+    <p>end para</p>
+    <a class="anchor"  href="" target="_blank">click here for nothing 1</a>
+    <p class="container2 container1" >I have both classes</p>
+
+
+    <h1>grouping</h1>
+     <a href="" class="one">Link in grouping</a>
+     <p class="two">para in grouping</p>
+     <h3 class="three">heading 3 in grouping </h3>
+
+
+
+</body>
+</html>

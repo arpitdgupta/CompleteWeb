@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    vertical-align: baseline;
+}
+
+h1{
+    margin-top: 25px;;
+    font-weight: 400;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    list-style-type: none;
+    width: 50vw;
+    font-style: normal;
+    margin-left: 15px ;
+    margin-top: 30px;
+}
+li:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.bigimage{
+    vertical-align: top;
+    width: 95vw;
+    height: 95vh;
+    margin-left: 1.5rem;
+    
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;;
+    text-align: center;
+}
+
+.container h2{
+        font-weight: 100;    
+}
+.container p{
+    font-size: xx-large;
+    width: 90%;
+}
+
+footer{
+    text-align: center;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    margin: 1rem;
+    height: 3rem;;
+
+}
+
+footer>p{
+      padding: 0.7rem;
+}
